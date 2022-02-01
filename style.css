@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(68.15deg, #611b27 16.62%, #e4320a 85.61%);;
+}
+
+.cabecalho{
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+.cabecalho-imagem{
+    margin-left: 10%;
+    width: 250px;
+    height: 120px;
+}
+
+nav li{
+    display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
