@@ -34,3 +34,24 @@ nav a:hover{
     color: #b3032f;
     text-decoration: underline;
 }
+
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.titulo-principal:before {
+	content: "[ ";
+}
+
+.titulo-principal:after {
+	content: " ]";
+}
