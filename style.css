@@ -29,3 +29,8 @@ nav a{
     font-size: 22px;
     font-weight: bold;
 }
+
+nav a:hover{
+    color: #b3032f;
+    text-decoration: underline;
+}
