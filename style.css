@@ -39,6 +39,12 @@ nav a:hover{
     width: 100%;
 }
 
+.principal{
+    padding: 3em 0;
+    width: 60%;
+	margin: 0 auto;
+}
+
 .titulo-principal{
     color: #FFFFFF;
     font-weight: bold;
@@ -54,4 +60,10 @@ nav a:hover{
 
 .titulo-principal:after {
 	content: " ]";
+}
+
+.camisetas{
+    width: 280px;
+    margin: 0 20px 20px 0;
+    float: left;
 }
