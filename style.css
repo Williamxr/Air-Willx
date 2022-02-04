@@ -95,3 +95,20 @@ nav a:hover{
     margin: 0 0 1em;
     padding-top: 1em;
 }
+
+.rodape{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.supreme{
+    border-top: 0.4px solid #e96d07;
+    width: 220px;
+    padding-top: 30px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 23px;
+	margin:  20px 0 0;
+}
