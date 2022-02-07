@@ -6,3 +6,17 @@
 	font-weight: bold;
     padding: 1em 0;
 }
+
+.produtos{
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foto-camiseta{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+}
