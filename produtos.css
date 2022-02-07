@@ -14,10 +14,12 @@
     align-items: center;
     justify-content: space-around;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .nome-produto{
-
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .foto-camiseta{
@@ -26,6 +28,55 @@
     padding-top: 20px;
 }
 
+.produtos li{
+    margin: 0 1.5%;
+	padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos li:hover{
+    padding: 30px 0px;
+	box-sizing: border-box;
+	border: 1px solid;
+	border-radius: 10px;
+    border-color: #D6F2FC;
+    padding: 10px 10px;
+}
+
+.produto-descricao-normal{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    padding: 0.1em;
+    margin-top: 0.4em;
+}
+
+.produto-descricao-promo{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    padding: 0.1em;
+}
+
 .produto-descricao{
+    font-family: 'Montserrat', sans-serif;
     padding: 0.3em;
 }
+
+.botao{
+    font-size: 14px;
+    padding: 0.3em 1em;
+    margin-top: 4px;
+    border-radius: 2px;
+    background: #D6F2FC;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.botao:hover{
+    background: #eb8847;
+	transform: scale(1.2);
+}
+
