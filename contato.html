@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
 
     <title>Air Willx</title>
 </head>
@@ -23,7 +24,19 @@
     </header>
 
     <main>
-        <h1>Conheça nossos produtos</h1>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" class="input-padrao" required placeholder="seuemail@email.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) x xxxx xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="40" rows="10" id="mensagem" required></textarea>
+        </form>
 
     </main>
     <footer class="rodape">
