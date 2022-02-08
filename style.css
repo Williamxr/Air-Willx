@@ -112,3 +112,21 @@ nav a:hover{
 	font-size: 23px;
 	margin:  20px 0 0;
 }
+
+@media screen and (max-width: 480px) {
+	.cabecalho, .principal, .mapa{
+		width: auto;
+	}
+
+	h4 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+	
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
