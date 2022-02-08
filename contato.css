@@ -53,3 +53,25 @@ form legend {
     background: #eb8847;;
 	transform: scale(1.2);
 }
+
+.horarios{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 42%
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding:  15px 8px;
+}
