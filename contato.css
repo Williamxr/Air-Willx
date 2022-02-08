@@ -1,0 +1,55 @@
+form{
+    margin: 40px 0;
+}
+
+main{
+    text-align: center;
+}
+
+form label{
+    font-size: 24px;
+	display: block;
+	margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.input-padrao {
+    align-items: center;
+    text-align: center;
+	margin: 0 0 20px;
+	padding:  10px 25px;
+    width: 20%;
+}
+
+form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.atendimento{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.botao{
+    width: 12%;
+    font-size: 18px;
+    padding: 0.3em 1em;
+    margin-top: 1px;
+    border-radius: 2px;
+    background: #D6F2FC;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.botao:hover{
+    background: #eb8847;;
+	transform: scale(1.2);
+}
