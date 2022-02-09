@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(68.15deg, #611b27 16.62%, #e4320a 85.61%);;
+    background: linear-gradient(to top, #611b27 16.62%, #e4320a 85.61%);;
 }
 
 .cabecalho{
@@ -113,20 +113,6 @@ nav a:hover{
 	margin:  20px 0 0;
 }
 
-@media screen and (max-width: 480px) {
-	.cabecalho, .principal, .mapa{
-		width: auto;
-	}
-
-	h4 {
-		text-align: center;
-	}
-
-	nav {
-		position: static;
-	}
-	
-	.lista-beneficios, .imagem-beneficios {
-		width: 100%;
-	}
+@media screen and (max-width: 480px){
+    
 }
